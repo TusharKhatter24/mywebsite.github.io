@@ -252,7 +252,7 @@ section {
         width: 30%;
         padding-left: 45em;
     }
-}
+}/*
 @media (min-width: 375px) and (max-width: 424px) {
   nav {
     width: 100%;
@@ -320,8 +320,8 @@ section {
         height: 49%;
         padding-left: 2em;
     }
-}
-@media (min-width: 425px) and (max-width: 767px) {
+}*/
+@media (min-width: 414px) and (max-width: 601px) {
   nav {
     width: 100%;
     height: 80px;
@@ -360,11 +360,12 @@ section {
     }
     .education .inner h1{
         float: left;
-        padding-left: 2.8em;
+        padding-left: 5.6em;
+        padding-right: 4em;
     }
     .education .inner div{
     width: 80%;
-        padding-right: 2.6em;
+        padding-right: 4em;
       padding-left: 3em;
   }
     .hobbies .inner h1{
@@ -395,7 +396,7 @@ section {
     .contact .inner{
         float: left;
         width: 93.5%;
-        height: 49%;
+        height: 49.5%;
         padding-left: 2em;
     }
 }
