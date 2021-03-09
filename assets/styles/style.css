@@ -22,6 +22,7 @@ nav {
 nav ul li a {
   text-decoration: none;
   color: #c8c6a7;
+    text-shadow: 1px 0px 8px white;
 }
 nav ul li a:hover {
   text-decoration: underline;
@@ -35,11 +36,13 @@ section {
 .home {
   background-image: radial-gradient(white,#709fb0,#213e3b,black);
   text-align: center;
+  text-shadow: 5px 5px 8px #213e3b;
   font-size: 24px;
   color: #213e3b;
   display: table;
   height: 100vh;
   width: 100%;
+  animation: home 3s ;
 }
 .home .inner h1:hover{
     text-decoration: overline;
@@ -49,9 +52,36 @@ section {
   vertical-align: middle;
 }
 .home .inner img {
+  border-style: solid white;
   border-radius: 20%;
+  box-shadow: 5px 5px 8px #213e3b;
   width: 150px;
   height: auto;
+}
+@keyframes home{
+    0%{
+      background-image: radial-gradient(white,#709fb0,#213e3b,black);
+    }
+    25%{
+      background-image: radial-gradient(black,white,#709fb0,#213e3b);
+      color: white;
+      text-shadow: 5px 5px 8px #fff;
+      border-style: solid white;
+      box-shadow: 5px 5px 8px #fff;
+    }
+    50%{
+      background-image: radial-gradient(#213e3b,black,white,#709fb0);
+    }
+    75%{
+      background-image: radial-gradient(#709fb0,#213e3b,black,white); 
+      color: white;
+      text-shadow: 5px 5px 8px #fff;
+      box-shadow: 5px 5px 8px #fff;
+      border-style: solid white;
+    }
+    100%{
+      background-image: radial-gradient(white,#709fb0,#213e3b,black);
+    }
 }
 
 .about {
@@ -71,8 +101,9 @@ section {
   padding-left: 50px;
 }
 .about .inner h1 {
-  font-size: 42px;
+  font-size: 46px;
   color: #fff;
+  text-shadow: 2px 2px 8px #eff3c6;
   font-weight: 300;
 }
 .about .inner h1:hover {
@@ -100,10 +131,14 @@ section {
 .education h1{
   font-size: 36px;
   padding-left: 14em;
+  text-shadow: 4px 4px 8px black;
 }
 .education h1:hover{
     text-decoration: underline;
     text-decoration-style: double;
+}
+.education div h2{
+  text-shadow: 2px 2px 8px green;
 }
 .education h2:hover{
     text-decoration: overline;
@@ -136,6 +171,7 @@ section {
 .hobbies h1{
   font-size: 36px;
   padding-left: 15em;
+  text-shadow: 4px 4px 8px black;
 }
 .hobbies h1:hover{
     text-decoration: underline;
@@ -152,11 +188,15 @@ section {
   float: left;
   text-align: center;
 }
+.hobbies h2{
+  text-shadow: 1px 1px 8px green;
+}
 .hobbies h2:hover{
     text-decoration: overline;
 }
 .hobbies .inner div img {
-  border-radius: 15%;
+  box-shadow: 2px 2px 8px green;
+    border-radius: 15%;
     width: 300px;
   height: auto;
 }
@@ -176,6 +216,7 @@ section {
   padding-bottom: 1em;
   font-size: 42px;
   padding-left: 21em;
+  text-shadow: 4px 4px 12px #c8c6a7;
 }
 .skills .inner div {
   width: 12%;
@@ -189,6 +230,7 @@ section {
 }
 .skills .inner div ul li {
   list-style-type: square;
+  text-shadow: 1px 1px 8px #c8c6a7;
 }
 .skills .inner div li {
   font-size: 20px;
@@ -209,26 +251,22 @@ section {
   width: 100%;
 }
 .contact .inner {
-    height: 60vh;
-    padding-left: 50em;
+    height: 60vh;           /*    background-color: rgba(0, 0, 0, 0.4);        */
+    padding-left: 53em;
     padding-bottom: 18em;
-    background-color: rgba(0, 0, 0, 0.4);
     color: #fff;
 }
 .contact h1{
   font-size: 36px;
+    text-shadow: 2px 2px 8px black;
 }
 .contact h1:hover{
     text-decoration: underline;  
-    text-decoration-style: dashed;
+    text-decoration-style:solid;
 }
 .contact .inner p{
   font-size: 16px;
-<<<<<<< HEAD
-    text-shadow: 5px 5px 5px red;
-=======
-  text-shadow:5px 5px 8px black;
->>>>>>> dd854759b5bf7470074ba3c5a5b7801307d17080
+  text-shadow: 2px 2px 4px black;
 }
 @media (min-width: 320px) and (max-width: 374px) {
   nav {
