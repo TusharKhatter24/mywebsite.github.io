@@ -23,6 +23,10 @@ nav ul li a {
   text-decoration: none;
   color: #c8c6a7;
 }
+nav ul li a:hover {
+  text-decoration: underline;
+  color: white;
+}
 
 section {
   background-color: #4cbbb9;
@@ -68,6 +72,10 @@ section {
   color: #fff;
   font-weight: 300;
 }
+.about .inner h1:hover {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
 .about .inner p {
   font-size: 25px;
   line-height: 45px;
@@ -89,6 +97,13 @@ section {
 .education h1{
   font-size: 36px;
   padding-left: 14em;
+}
+.education h1:hover{
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+.education h2:hover{
+    text-decoration: overline;
 }
 .education .inner div {
   width: 45%;
@@ -119,6 +134,10 @@ section {
   font-size: 36px;
   padding-left: 15em;
 }
+.hobbies h1:hover{
+    text-decoration: underline;
+    text-decoration-style: double;
+}
 .hobbies .inner {
   padding: 50px;
 }
@@ -129,6 +148,9 @@ section {
   margin-right: 5px;
   float: left;
   text-align: center;
+}
+.hobbies h2:hover{
+    text-decoration: overline;
 }
 .hobbies .inner div img {
   border-radius: 15%;
@@ -168,6 +190,12 @@ section {
 .skills .inner div li {
   font-size: 20px;
 }
+.skills .inner div ul li:hover{
+    border-style: double;
+}
+.skills .inner h1:hover{
+    text-decoration: underline;
+}
 
 .contact {
   background-image: url("https://static.wixstatic.com/media/266dbc_ec3565bfbfae4f19bac1478123cb9d58~mv2.jpg");
@@ -186,7 +214,11 @@ section {
 .contact h1{
   font-size: 36px;
 }
-.contact .inner p {
+.contact h1:hover{
+    text-decoration: underline;  
+    text-decoration-style: dashed;
+}
+.contact .inner p{
   font-size: 16px;
 }
 @media (min-width: 320px) and (max-width: 374px) {
