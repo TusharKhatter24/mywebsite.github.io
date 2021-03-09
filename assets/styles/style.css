@@ -266,11 +266,7 @@ section {
 }
 .contact .inner p{
   font-size: 16px;
-<<<<<<< HEAD
   text-shadow: 2px 2px 4px black;
-=======
-  text-shadow: 5px 5px 5px red;
->>>>>>> 67d18b2719ba5bc570ef7813fade7a26331a29a7
 }
 @media (min-width: 320px) and (max-width: 374px) {
   nav {
