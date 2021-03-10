@@ -7,7 +7,7 @@
   </head>
   <body>
       <section class="NAME">
-          <h1>              TUSHAR KHATTER</h1>
+          <h1>TUSHAR KHATTER</h1>
       </section>
       <section class="table">
           <table>
