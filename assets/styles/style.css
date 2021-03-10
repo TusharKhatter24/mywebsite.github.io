@@ -8,7 +8,7 @@ nav ul li {
   list-style-type: none;
   float: left;
   padding-right: 2em; /* (px,em,%),pt,cm */
-  color: #eff3c6;
+  color: #213e3b;
 }
 nav ul {
   float: right;
@@ -16,17 +16,16 @@ nav ul {
 nav {
   width: 100%;
   height: 50px;
-  background-image: linear-gradient(black,#213e3b,black,#213e3b,black);
   position: fixed;
+    animation: nav 3s infinite ;
 }
 nav ul li a {
   text-decoration: none;
-  color: #c8c6a7;
+  color: #213e3b;
     text-shadow: 1px 0px 8px white;
 }
 nav ul li a:hover {
-  text-decoration: underline;
-  color: white;
+  text-decoration: overline;
 }
 
 section {
@@ -42,7 +41,7 @@ section {
   display: table;
   height: 100vh;
   width: 100%;
-  animation: home 3s ;
+  /* animation: home 3s ; */
 }
 .home .inner h1:hover{
     text-decoration: overline;
@@ -58,29 +57,30 @@ section {
   width: 150px;
   height: auto;
 }
-@keyframes home{
+
+@keyframes nav{
     0%{
-      background-image: radial-gradient(white,#709fb0,#213e3b,black);
+      background-image: linear-gradient(orange,white,lawngreen);
     }
     25%{
-      background-image: radial-gradient(black,white,#709fb0,#213e3b);
+      background-image: linear-gradient(white,lawngreen,orange);
       color: white;
       text-shadow: 5px 5px 8px #fff;
       border-style: solid white;
       box-shadow: 5px 5px 8px #fff;
     }
     50%{
-      background-image: radial-gradient(#213e3b,black,white,#709fb0);
+      background-image: linear-gradient(lawngreen,orange,white);
     }
     75%{
-      background-image: radial-gradient(#709fb0,#213e3b,black,white); 
+      background-image: linear-gradient(orange,white,lawngreen); 
       color: white;
       text-shadow: 5px 5px 8px #fff;
       box-shadow: 5px 5px 8px #fff;
       border-style: solid white;
     }
     100%{
-      background-image: radial-gradient(white,#709fb0,#213e3b,black);
+      background-image: linear-gradient(orange,white,lawngreen);
     }
 }
 
@@ -103,17 +103,19 @@ section {
 .about .inner h1 {
   font-size: 46px;
   color: #fff;
-  text-shadow: 2px 2px 8px #eff3c6;
+  text-shadow: 2px 2px 10px #eff3c6;
   font-weight: 300;
 }
 .about .inner h1:hover {
     text-decoration: underline;
-    text-decoration-style: dashed;
+    text-decoration-style:wavy;
 }
 .about .inner p {
   font-size: 25px;
+    text-align: center;
   line-height: 45px;
   color: #fff;
+  outline: 7px dashed #eff3c6;
 }
 
 .education {    
@@ -253,7 +255,7 @@ section {
 .contact .inner {
     height: 60vh;           /*    background-color: rgba(0, 0, 0, 0.4);        */
     padding-left: 53em;
-    padding-bottom: 18em;
+    padding-bottom: 16em;
     color: #fff;
 }
 .contact h1{
@@ -266,11 +268,7 @@ section {
 }
 .contact .inner p{
   font-size: 16px;
-<<<<<<< HEAD
   text-shadow: 2px 2px 4px black;
-=======
-  text-shadow: 5px 5px 5px red;
->>>>>>> 67d18b2719ba5bc570ef7813fade7a26331a29a7
 }
 @media (min-width: 320px) and (max-width: 374px) {
   nav {
