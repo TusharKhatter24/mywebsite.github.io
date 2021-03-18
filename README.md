@@ -16,7 +16,7 @@ You can click the Preview link to take a look at your changes.
 --->
 
 ## Table of contents
-- [General info](#general-info)
+- [General info](https://tusharkhatter24.github.io/mywebsite.github.io/)
 - [Technologies](#technologies)
 - [Setup](#setup)
 
