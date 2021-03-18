@@ -20,11 +20,11 @@ You can click the Preview link to take a look at your changes.
 
 ## Table of contents
 - [General info](https://tusharkhatter24.github.io/mywebsite.github.io/)
-- [Technologies](#technologies)
+- [Contact Me](https://tusharkhatter24.github.io/mywebsite.github.io/#contact)
 - [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+Student at Netaji Subhas University of Technology (Electrical Engineering)
 	
 ## Technologies
 Project is created with:
@@ -40,4 +40,3 @@ $ cd ../lorem
 $ npm install
 $ npm start
 ```
- 
