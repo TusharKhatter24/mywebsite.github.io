@@ -1,5 +1,6 @@
 # Tushar Khatter
-![icon](https://user-images.githubusercontent.com/77000632/111595242-eee84680-87f1-11eb-9cc3-c807417eca0f.JPG :height="700px" width="400px")
+<!--![icon](https://user-images.githubusercontent.com/77000632/111595242-eee84680-87f1-11eb-9cc3-c807417eca0f.JPG)-->
+<img src="https://user-images.githubusercontent.com/77000632/111595242-eee84680-87f1-11eb-9cc3-c807417eca0f.JPG" width="20%" height="30%">
 ## header H2
 ### header H3
 #### header H4
