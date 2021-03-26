@@ -26,6 +26,7 @@ nav ul li a {
 }
 nav ul li a:hover {
   text-decoration: overline;
+    /*border: 2px red outset;*/
 }
 
 section {
@@ -97,8 +98,9 @@ section {
   vertical-align: middle;
   width: 57%;
   float: left;
-  padding-top: 75px;
-  padding-left: 50px;
+  padding: 20px 50px 50px 50px;
+    border: 5px ridge white;
+    margin: 20px 50px 50px 50px;
 }
 .about .inner h1 {
   font-size: 46px;
@@ -253,7 +255,8 @@ section {
   width: 100%;
 }
 .contact .inner {
-    height: 60vh;           /*    background-color: rgba(0, 0, 0, 0.4);        */
+    height: 60vh;              
+	background-color: rgba(0, 0, 0, 0.4);        
     padding-left: 53em;
     padding-bottom: 16em;
     color: #fff;
